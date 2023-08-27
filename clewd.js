@@ -203,7 +203,7 @@ const AddxmlPlot = (content) => {
         padtxt: 13500,
         xmlPlot: true,
         localtunnel: false,
-        Superfetch: false
+        Superfetch: true
     },
     SuperfetchHost: 'localhost',
     SuperfetchPort: 8443,
