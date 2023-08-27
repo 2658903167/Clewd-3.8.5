@@ -179,7 +179,7 @@ const AddxmlPlot = (content) => {
     Cookie: '',
     CookieArray: [],
     Ip: process.env.PORT ? '0.0.0.0' : '127.0.0.1',
-    Port: process.env.PORT || 8444,
+    Port: process.env.PORT || 8443,
     BufferSize: 1,
     SystemInterval: 3,
     padtxt_placeholder: '',
@@ -212,7 +212,7 @@ const AddxmlPlot = (content) => {
 
 const {version: Version} = require('./package.json');
 
-const Main = 'clewd v' + Version + '修改版 by tera';
+const Main = 'clewd v' + Version;
 /******************************************************* */
 
 ServerResponse.prototype.json = async function(body, statusCode = 200, headers) {
