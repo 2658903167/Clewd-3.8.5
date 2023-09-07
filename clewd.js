@@ -179,7 +179,7 @@ const AddxmlPlot = (content) => {
     Cookie: '',
     CookieArray: [],
     Ip: process.env.PORT ? '0.0.0.0' : '127.0.0.1',
-    Port: process.env.PORT || 8445,
+    Port: process.env.PORT || 8444,
     BufferSize: 1,
     SystemInterval: 3,
     padtxt_placeholder: '',
